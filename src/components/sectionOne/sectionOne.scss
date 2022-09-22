@@ -1,0 +1,117 @@
+:root{
+    --rainbow: linear-gradient(to left,#dd1b8c 27.79%,#2f80ed 35.92%,#7f06f0 54.06%);
+    
+}
+
+.sectionOne{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 40px;
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 3;
+
+        h1{
+            font-size: 36px;
+            margin: 0;
+        }
+        span{
+            font-size: 36px;
+        }
+
+        .hire{
+            cursor: pointer;
+            width: max-content;
+            padding: 10px 20px;
+            border: 2px solid rgb(0, 174, 255);
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+    .shape{
+        display: flex;
+        flex: 4;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+        .picture{
+            height: 350px;
+            width: 350px;
+            background: linear-gradient(to left, rgb(238, 28, 63), rgb(209, 91, 209));
+            border-radius: 46% 54% 51% 49% / 24% 25% 75% 76% ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            .service{
+                display: flex;
+                align-items: center;
+                width: 120px;
+                height: 70px;
+                position: absolute;
+                border-radius: 20px;
+                background: rgba(225, 241, 241, 0.938);
+                font-size: 19px;
+                font-weight: bold;
+                box-sizing: border-box;
+                overflow: hidden;
+                line-height: 1.4;
+
+
+                &:nth-child(1){
+                    top: -15px;
+                    right: 0;
+
+                }
+                &:nth-child(2){
+                    bottom: -15px;
+                    left: 0;
+                }
+                span{
+                    background-image: var(--rainbow);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            img{
+                width: 210px;
+                height: 210px;
+                object-fit: cover;
+                border-radius: 20%;
+            }
+        }
+    }
+}
+.logo{
+    margin: 50px 70px;
+    display: flex;
+    gap: 20px;
+
+    .twitter{
+        cursor: pointer;
+    }
+    .whatsapp{
+        cursor: pointer;
+    }
+    .instagram{
+        cursor: pointer;
+    }
+
+    
+}
+.w{
+
+.waves{
+    transform: rotate(180deg);
+    margin-top: -10px;
+    background: white;
+
+}
+}
