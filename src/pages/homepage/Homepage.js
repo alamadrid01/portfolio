@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import Back from '../../components/reset/Back'
+import SectionFive from '../../components/sectionFive/SectionFive'
 import SectionFour from '../../components/sectionFour/SectionFour'
 import SectionOne from '../../components/sectionOne/SectionOne'
 import SectionThree from '../../components/sectionThree/SectionThree'
@@ -17,8 +18,10 @@ function Homepage() {
     <div className='homepage'>
       <div className="navbarContainer">
         <Navbar />
-      </div>  
+      </div> 
+       
       <SectionOne />
+
       <div className="section">
         <SectionTwo />
         <SectionThree />

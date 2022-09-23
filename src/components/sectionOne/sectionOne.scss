@@ -23,6 +23,7 @@
         }
 
         .hire{
+            margin-top: 20px;
             cursor: pointer;
             width: max-content;
             padding: 10px 20px;
@@ -30,6 +31,7 @@
             border-radius: 10px;
             font-size: 15px;
             font-weight: bold;
+            box-shadow:  5px 7px 4px #4e58b4,
         }
     }
     .shape{
@@ -108,10 +110,46 @@
 }
 .w{
 
+    
+
+    @media (max-width: 830px){
+        .sectionOne{
+            flex-direction: column;
+            position: relative;
+
+            .text{
+                position: relative;
+                top: 400px;
+
+                h1{
+                    font-size: 40px;
+                    margin: 0;
+                }
+                span{
+                    font-size: 40px;
+                }
+                p{
+                    display: flex;
+                    padding: 0 150px;
+                }
+                .hire{
+                    margin-bottom: 20px;
+                }
+            }
+            .shape{
+                position: relative;
+                bottom: 280px;
+            }
+        }
+    }
+
+
+
 .waves{
     transform: rotate(180deg);
     margin-top: -10px;
     background: white;
+    border: 2px solid white;
 
 }
 }

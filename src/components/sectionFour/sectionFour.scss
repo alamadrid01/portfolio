@@ -9,9 +9,11 @@
     }
     .contact{
         display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 60px;
         width: 90%;
-        height: 50vh;
+        height: 80vh;
         border-radius: 20px;
         background: linear-gradient(to right, rgb(240, 46, 78) , rgb(173, 4, 173) 70%);
 
@@ -19,7 +21,8 @@
             flex: 3;
         }
         .text{
-            flex: 4;
+            padding-right: 10px;
+            flex: 3;
             display: flex;
             text-align: left;
             align-items: center;
@@ -55,6 +58,21 @@
                 box-shadow:  5px 7px 4px #4e58b4,
              
             }
+            @media (max-width: 1000px){
+                .message{
+                    width: 80%;
+                    height: 120px;
+                }  
         }
+        @media (max-width: 817px){
+            .message{
+                width: 90%;
+                height: 120px;
+            }  
     }
+        }
+
+
+    }
+
 }

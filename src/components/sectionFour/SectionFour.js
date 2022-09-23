@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Animation from '../animation/Animation'
 import './sectionFour.scss'
+import computer from './computer.png'
 
 export class SectionFour extends Component {
     constructor(props) {
@@ -34,7 +35,7 @@ export class SectionFour extends Component {
         <h1 id='contact'>Get in Touch</h1>
         <div className="contact">
             <div className="shape">
-
+              <img src={computer} alt="" />
             </div>
 
             <div className="text">

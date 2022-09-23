@@ -7,11 +7,18 @@
     }
 }
 .navbar{
+    position: relative;
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     // height: 50px;
     align-items: center;
+
+    img{
+        width: 35px;
+        height: 35px;
+        margin-right: 10%;
+    }
 
     .left{
         margin-left: 155px;
@@ -28,6 +35,21 @@
         }
 }
 
+    .slide{
+        width: 30%;
+        text-align: left;
+        position: absolute;
+        justify-content: center;
+        top: 100px;
+        flex-direction: column;
+
+        ul{
+            flex-direction: column;
+        }
+        .contact{
+            margin-left: 40px;
+        }
+    }
     .right{
         margin-right: 35px;
         display: flex;
@@ -63,6 +85,23 @@
                 font-size: 18px;
                 font-weight: 500;
             }
+
+          
         }
+      
+    }
+
+  
+}
+
+@media (max-width: 850px){
+    .navbar{
+
+    
+
+        .left{
+            margin-left: 70px;
+        }
+      
     }
 }
