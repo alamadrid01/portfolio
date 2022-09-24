@@ -8,12 +8,14 @@
         
     }
     .contact{
+
         display: flex;
+        padding: 0 20px;
         justify-content: center;
         align-items: center;
         margin-top: 60px;
         width: 90%;
-        height: 80vh;
+        height: fit-content;
         border-radius: 20px;
         background: linear-gradient(to right, rgb(240, 46, 78) , rgb(173, 4, 173) 70%);
 
@@ -72,6 +74,34 @@
     }
         }
 
+        @media (max-width: 830px){
+            .shape{
+                flex: 1;
+
+                img{
+                    width: 350px;
+                    height: 300px;
+                }
+            }
+
+            .text{
+                flex: 5;
+            }
+        }
+        @media (max-width: 657px){
+            .shape{
+                flex: 1;
+
+                img{
+                    width: 300px;
+                    height: 250px;
+                }
+            }
+
+            .text{
+                flex: 5;
+            }
+        }
 
     }
 
